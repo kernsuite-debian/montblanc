@@ -1,0 +1,13 @@
+Description: dont download cub
+
+--- montblanc-0.4.0-alpha3.orig/setup.py
++++ montblanc-0.4.0-alpha3/setup.py
+@@ -139,7 +139,7 @@ def install_cub():
+ 
+     print 'NVIDIA cub install successful'
+ 
+-install_cub()
++#install_cub()
+ 
+ def get_version():
+     # Versioning code here, based on

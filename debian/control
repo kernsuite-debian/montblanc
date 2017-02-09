@@ -1,0 +1,15 @@
+Source: montblanc
+Section: python
+Priority: optional
+Maintainer: Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>
+Build-Depends: debhelper (>= 8.0.0), casacore-dev, python-all, cub-dev, python-setuptools
+Standards-Version: 3.9.4
+Homepage: https://github.com/ska-sa/montblanc
+Vcs-Git: git://github.com/kernsuite-docker/montblanc.git
+Vcs-Browser: https://github.com/kernsuite-docker/montblanc
+X-Python-Version: 2.7
+
+Package: python-montblanc
+Architecture: any
+Depends: ${python:Depends}, ${misc:Depends}, casacore-data, python-pycuda
+Description: A PyCUDA implementation of the RIME

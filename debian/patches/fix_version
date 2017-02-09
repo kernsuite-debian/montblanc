@@ -1,0 +1,13 @@
+Description: dont autodetect the version
+
+--- montblanc-0.4.0-alpha3.orig/setup.py
++++ montblanc-0.4.0-alpha3/setup.py
+@@ -194,7 +194,7 @@ def src_pkg_dirs():
+     return pkg_dirs
+ 
+ setup(name='montblanc',
+-    version=get_version(),
++    version='0.4.0-alpha3',
+     description='GPU-accelerated RIME implementations.',
+     long_description=readme(),
+     url='http://github.com/ska-sa/montblanc',
