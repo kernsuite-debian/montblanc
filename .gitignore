@@ -1,0 +1,33 @@
+# Python cruft
+build/
+dist/
+montblanc.egg-info/
+*.pyc
+
+# log files
+*.log
+
+# C++ Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# C++ Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# C++ Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# C++ Executables
+*.exe
+*.out
+*.app
+
+# cub files
+montblanc/src/cub
