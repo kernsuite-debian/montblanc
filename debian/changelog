@@ -1,3 +1,9 @@
+montblanc (0.4.0-alpha3-1kern1) xenial; urgency=medium
+
+  * update signature
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 07 Nov 2017 16:23:31 +0200
+
 montblanc (0.4.0-alpha3-1) xenial; urgency=low
 
   * Initial release
